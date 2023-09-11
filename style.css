@@ -16,7 +16,7 @@ html {
 }
 
 p,
-.experience-sub-title {
+.skills-sub-title {
   color: rgb(85, 85, 85);
 }
 
@@ -32,7 +32,7 @@ nav,
 .article-container,
 .contact-info-upper-container,
 .contact-info-container,
-.experience-details-container,
+.skills-details-container,
 .nav-links,
 .btn-container,
 .section__pic-container,
@@ -60,7 +60,7 @@ nav,
 #profile,
 #socials-container,
 .about-details-container,
-.experience-details-container,
+.skills-details-container,
 .contact-info-upper-container,
 .contact-info-container,
 .btn-container {
@@ -69,7 +69,7 @@ nav,
 
 #contact,
 .about-details-container,
-.experience-details-container {
+.skills-details-container {
   flex-direction: column;
 }
 
@@ -109,7 +109,7 @@ nav {
 /* SECTIONS */
 
 #about,
-#experience,
+#skills,
 #projects {
   position: relative;
 }
@@ -130,7 +130,7 @@ section {
 }
 
 .section-container,
-.experience-details-container {
+.skills-details-container {
   height: 80%;
 }
 
@@ -139,7 +139,7 @@ section {
 }
 
 .btn,
-.experience-sub-title,
+.skills-sub-title,
 .section__text p,
 .title {
   font-weight: 600;
@@ -222,7 +222,7 @@ a,
   align-self: center;
 }
 
-.experience-sub-title,
+.skills-sub-title,
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
@@ -241,7 +241,7 @@ a,
 /* ABOUT SECTION */
 
 .about-containers,
-.experience-sub-title {
+.skills-sub-title {
   margin-bottom: 2rem;
 }
 
@@ -283,8 +283,8 @@ article {
 /* PROJECTS SECTION */
 
 .project-img {
-  width: 90%;
-  height: 90%;
+  width: 50%;
+  height: 50%;
 }
 
 .color-container,
